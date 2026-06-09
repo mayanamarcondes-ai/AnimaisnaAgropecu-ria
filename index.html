@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Agrinho Sustentável</h1>
+        <p>Dicas para a criação responsável de animais no campo</p>
+    </header>
+
+    <nav>
+        <a href="#bovinos">Bovinos</a>
+        <a href="#aves">Aves</a>
+        <a href="#suinos">Suínos</a>
+        <a href="#peixes">Peixes</a>
+    </nav>
+
+    <section class="intro">
+        <h2>Produção Sustentável</h2>
+        <p>
+            A sustentabilidade na criação animal busca produzir alimentos de qualidade,
+            respeitando o meio ambiente, garantindo o bem-estar animal e promovendo o uso consciente dos recursos naturais.
+        </p>
+    </section>
+
+    <section id="bovinos" class="card">
+        <h2>🐄 Bovinos</h2>
+        <p>Criação de gado de forma sustentável.</p>
+
+        <ul>
+            <li>Utilizar manejo rotacionado das pastagens.</li>
+            <li>Garantir acesso constante à água limpa.</li>
+            <li>Plantar árvores para sombra e conforto térmico.</li>
+            <li>Realizar vacinação e acompanhamento veterinário.</li>
+        </ul>
+
+        <button onclick="mostrarDica('bovino')">Ver dica extra</button>
+        <p id="bovino" class="dica"></p>
+    </section>
+
+    <section id="aves" class="card">
+        <h2>🐔 Aves</h2>
+        <p>Boas práticas para criação de galinhas e outras aves.</p>
+
+        <ul>
+            <li>Manter instalações limpas e ventiladas.</li>
+            <li>Oferecer alimentação balanceada.</li>
+            <li>Garantir espaço adequado para movimentação.</li>
+            <li>Evitar desperdício de água e ração.</li>
+        </ul>
+
+        <button onclick="mostrarDica('ave')">Ver dica extra</button>
+        <p id="ave" class="dica"></p>
+    </section>
+
+    <section id="suinos" class="card">
+        <h2>🐖 Suínos</h2>
+        <p>Produção eficiente e sustentável.</p>
+
+        <ul>
+            <li>Controle adequado dos resíduos.</li>
+            <li>Uso de biodigestores para geração de energia.</li>
+            <li>Ambientes limpos e bem ventilados.</li>
+            <li>Monitoramento constante da saúde dos animais.</li>
+        </ul>
+
+        <button onclick="mostrarDica('suino')">Ver dica extra</button>
+        <p id="suino" class="dica"></p>
+    </section>
+
+    <section id="peixes" class="card">
+        <h2>🐟 Piscicultura</h2>
+        <p>Criação sustentável de peixes.</p>
+
+        <ul>
+            <li>Monitorar a qualidade da água.</li>
+            <li>Evitar superlotação dos tanques.</li>
+            <li>Utilizar alimentação adequada.</li>
+            <li>Preservar nascentes e recursos hídricos.</li>
+        </ul>
+
+        <button onclick="mostrarDica('peixe')">Ver dica extra</button>
+        <p id="peixe" class="dica"></p>
+    </section>
+
+    <footer>
+        <p>Projeto Agrinho 2025 | Educação para um campo sustentável 🌿</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
